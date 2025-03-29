@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard";
 import AddReviewButton from "../components/AddReview";
 
-const API_KEY = import.meta.env.VITE_API_KEY;
+// const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = "9a98a3b5c0a3b46cd5f5d942c82c5077";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 const Home = () => {
